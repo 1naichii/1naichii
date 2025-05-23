@@ -101,10 +101,10 @@
 ## 📫 Connect With Me
 <div align="center">
     <a href="https://www.facebook.com/1naichii" target="_blank">
-        <img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook Main" />
+        <img src="https://img.shields.io/badge/-Facebook_Dev-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook Main" />
     </a>
     <a href="https://www.facebook.com/DevZakariyaa" target="_blank">
-        <img src="https://img.shields.io/badge/-Facebook_Dev-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook Dev" />
+        <img src="https://img.shields.io/badge/-Facebook_Main-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook Dev" />
     </a>
     <a href="https://x.com/DevZakariya" target="_blank">
         <img src="https://img.shields.io/badge/-Twitter-000000?style=flat-square&logo=x&logoColor=white" alt="Twitter" />
