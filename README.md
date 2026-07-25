@@ -85,14 +85,6 @@ constexpr DeveloperProfile mochaa{
 
 <div align="center">
 
-[![followers](https://img.shields.io/github/followers/1naichii?style=flat-square&logo=github&labelColor=2b1f28&color=f29ab7&label=followers)](https://github.com/1naichii?tab=followers)
-&nbsp;
-[![stars](https://img.shields.io/github/stars/1naichii?style=flat-square&logo=github&labelColor=2b1f28&color=f29ab7&label=stars)](https://github.com/1naichii)
-&nbsp;
-[![repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/1naichii&query=$.public_repos&style=flat-square&logo=github&labelColor=2b1f28&color=f29ab7&label=repos)](https://github.com/1naichii?tab=repositories)
-
-<br><br>
-
 ![GitHub Streak](https://v0-git-hub-streak-score-card-phi.vercel.app/api/card-with-avatar?username=1naichii&theme=%7B%22backgroundColor%22%3A%22%232b1f28%22%2C%22textColor%22%3A%22%23fde8ef%22%2C%22accentColor%22%3A%22%23f29ab7%22%2C%22borderColor%22%3A%22%23f29ab7%22%2C%22waterColor%22%3A%22%23f7c5d8%22%2C%22streakColor%22%3A%22%23e96a9d%22%7D)
 
 </div>
