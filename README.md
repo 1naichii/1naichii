@@ -12,21 +12,9 @@
 
 <div align="center">
 
-<pre style="background:#2b1f28;color:#fde8ef;padding:20px;border-radius:10px;border:1px solid #f29ab7;display:inline-block;text-align:left;">
+<img src="./terminal.svg" width="680" alt="Terminal profile: Mochaa, Full-Stack Developer in Surabaya, open to work and collaboration" />
 
-  <span style="color:#f29ab7;">$</span> <span style="color:#f7c5d8;">whoami</span>
-  <span style="color:#fff4e8;">> Mochaa</span>
-
-  <span style="color:#f29ab7;">$</span> <span style="color:#f7c5d8;">cat</span> role.txt
-  <span style="color:#fff4e8;">> Full-Stack Developer</span>
-
-  <span style="color:#f29ab7;">$</span> <span style="color:#f7c5d8;">echo</span> $LOCATION
-  <span style="color:#fff4e8;">> Surabaya, Indonesia</span>
-
-  <span style="color:#f29ab7;">$</span> <span style="color:#f7c5d8;">echo</span> $STATUS
-  <span style="color:#e96a9d;">> Open to Work and Collaboration</span>
-
-</pre>
+<br><br>
 
 <img src="./Tumblr.gif" width="420" alt="Anime GIF" />
 
@@ -34,26 +22,17 @@
 
 ---
 
-```cpp
-#include <array>
-
-enum class Background { ComputerEngineering };
-enum class Focus { FullStack, RestAPI, RealTimeSystems };
-enum class Experience { ProductionWebApps };
-enum class Interest { BackendArchitecture, IoT, AI };
-
-struct DeveloperProfile {
-  Background background;
-  std::array<Focus, 3> focus;
-  Experience experience;
-  std::array<Interest, 3> interests;
-};
-
-constexpr DeveloperProfile mochaa{
-  .background = Background::ComputerEngineering,
-  .focus = {Focus::FullStack, Focus::RestAPI, Focus::RealTimeSystems},
-  .experience = Experience::ProductionWebApps,
-  .interests = {Interest::BackendArchitecture, Interest::IoT, Interest::AI},
+```c
+static const struct {
+  const char *background;
+  const char *focus[3];
+  const char *experience;
+  const char *interests[3];
+} mochaa = {
+  .background = "Computer Engineering",
+  .focus = {"Full-Stack", "REST APIs", "Real-Time Systems"},
+  .experience = "Building production web applications",
+  .interests = {"Backend Architecture", "IoT", "AI"},
 };
 ```
 
@@ -100,9 +79,6 @@ constexpr DeveloperProfile mochaa{
 
 <div align="center">
 
-```bash
-$ git log --oneline --all | tail -1
-> "keep learning. keep building."
-```
+![Random developer quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
