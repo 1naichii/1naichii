@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="230" viewBox="0 0 680 230" role="img" aria-labelledby="title description">
+  <title id="title">ai-engineering-starter</title>
+  <desc id="description">Current project: a vendor-neutral starter for specification-driven AI software delivery with independent adversarial review.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b1f28" />
+      <stop offset="1" stop-color="#21171f" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e96a9d" />
+      <stop offset="1" stop-color="#f7c5d8" />
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f29ab7" stroke-opacity="0.08" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="678" height="228" rx="14" fill="url(#background)" stroke="#f29ab7" stroke-width="2" />
+  <path d="M 440 1 H 665 Q 679 1 679 15 V 215 Q 679 229 665 229 H 410 Z" fill="url(#grid)" />
+  <circle cx="642" cy="30" r="42" fill="#e96a9d" fill-opacity="0.07" />
+  <circle cx="622" cy="206" r="62" fill="#f7c5d8" fill-opacity="0.04" />
+
+  <g font-family="JetBrains Mono, Consolas, monospace">
+    <text x="30" y="70" fill="#fde8ef" font-size="25" font-weight="700">ai-engineering-starter</text>
+    <rect x="30" y="84" width="300" height="3" rx="1.5" fill="url(#accent)" />
+
+    <text x="30" y="116" fill="#fff4e8" font-size="13">Vendor-neutral AI engineering workflows for</text>
+    <text x="30" y="136" fill="#fff4e8" font-size="13">spec-driven delivery and independent review.</text>
+
+    <g font-size="10" font-weight="700">
+      <rect x="30" y="161" width="91" height="24" rx="6" fill="#e96a9d" fill-opacity="0.16" />
+      <text x="42" y="177" fill="#f29ab7">SPEC-DRIVEN</text>
+      <rect x="129" y="161" width="91" height="24" rx="6" fill="#f7c5d8" fill-opacity="0.1" />
+      <text x="141" y="177" fill="#f7c5d8">MULTI-AGENT</text>
+      <rect x="228" y="161" width="44" height="24" rx="6" fill="#fff4e8" fill-opacity="0.08" />
+      <text x="240" y="177" fill="#fff4e8">MIT</text>
+    </g>
+
+    <g>
+      <text x="493" y="37" fill="#f7c5d8" font-size="10" font-weight="700" letter-spacing="1.5">WORKFLOW</text>
+      <path d="M 535 65 V 177" stroke="#f29ab7" stroke-opacity="0.38" stroke-width="2" stroke-dasharray="4 5" />
+
+      <rect x="469" y="55" width="132" height="36" rx="8" fill="#34252f" stroke="#f29ab7" stroke-opacity="0.65" />
+      <circle cx="487" cy="73" r="5" fill="#f29ab7" />
+      <text x="501" y="78" fill="#fde8ef" font-size="12" font-weight="700">SPEC</text>
+
+      <rect x="485" y="106" width="132" height="36" rx="8" fill="#34252f" stroke="#e96a9d" stroke-opacity="0.65" />
+      <circle cx="503" cy="124" r="5" fill="#e96a9d" />
+      <text x="517" y="129" fill="#fde8ef" font-size="12" font-weight="700">BUILD</text>
+
+      <rect x="469" y="157" width="148" height="36" rx="8" fill="#34252f" stroke="#f7c5d8" stroke-opacity="0.65" />
+      <circle cx="487" cy="175" r="5" fill="#f7c5d8" />
+      <text x="501" y="180" fill="#fde8ef" font-size="12" font-weight="700">REVIEW</text>
+
+      <text x="483" y="214" fill="#e96a9d" font-size="10">human-gated release</text>
+    </g>
+  </g>
+</svg>

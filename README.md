@@ -4,7 +4,7 @@
 
 <br><br>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=F29AB7&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Backend+and+API+Builder;Building+real-time+web+apps;Open+to+collaborate!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=F29AB7&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Backend+%26+API+Builder;Building+Real-Time+Web+Apps;Open+to+Collaboration)](https://git.io/typing-svg)
 
 </div>
 
@@ -31,10 +31,18 @@ static const struct {
 } mochaa = {
   .background = "Computer Engineering",
   .focus = {"Full-Stack", "REST APIs", "Real-Time Systems"},
-  .experience = "Building production web applications",
+  .experience = "Production web application development",
   .interests = {"Backend Architecture", "IoT", "AI"},
 };
 ```
+
+---
+
+**`~/currently-building`**
+
+<a href="https://github.com/1naichii/ai-engineering-starter">
+  <img src="./project-card.svg" width="680" alt="ai-engineering-starter: a vendor-neutral starter for specification-driven AI software delivery with independent adversarial review" />
+</a>
 
 ---
 
@@ -42,21 +50,21 @@ static const struct {
 
 <img src="https://skillicons.dev/icons?i=ts,js,php,py,c,cpp&theme=dark&perline=7" alt="TypeScript, JavaScript, PHP, Python, C, and C++" />
 
-**`~/frameworks`**
+**`~/frameworks-and-libraries`**
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,express,laravel,react,vite,tailwind,hono,elysia&theme=dark" alt="Node.js, Express, Laravel, React, Vite, Tailwind CSS, Hono, and Elysia" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=express,laravel,react,tailwind,hono,elysia&theme=dark" alt="Express, Laravel, React, Tailwind CSS, Hono, and Elysia" />
 
 **`~/databases-and-orm`**
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=mysql,mongodb,postgres,redis,prisma,drizzle&theme=dark" alt="MySQL, MongoDB, PostgreSQL, Redis, Prisma, and Drizzle" />
 
-**`~/tools`**
+**`~/runtimes-and-tools`**
 
-<img src="https://skillicons.dev/icons?i=docker,git,github,postman,npm,bun,vercel&theme=dark&perline=7" alt="Docker, Git, GitHub, Postman, npm, Bun, and Vercel" />
+<img src="https://skillicons.dev/icons?i=nodejs,bun,vite,npm,docker,git,github,postman&theme=dark&perline=8" alt="Node.js, Bun, Vite, npm, Docker, Git, GitHub, and Postman" />
 
 **`~/platforms-and-hardware`**
 
-<img src="https://skillicons.dev/icons?i=discord,arduino&theme=dark&perline=7" alt="Discord and Arduino" />
+<img src="https://skillicons.dev/icons?i=vercel,discord,arduino&theme=dark&perline=7" alt="Vercel, Discord, and Arduino" />
 
 ---
 
