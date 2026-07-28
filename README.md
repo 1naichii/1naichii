@@ -22,19 +22,7 @@
 
 ---
 
-```c
-static const struct {
-  const char *background;
-  const char *focus[3];
-  const char *experience;
-  const char *interests[3];
-} mochaa = {
-  .background = "Computer Engineering",
-  .focus = {"Full-Stack", "REST APIs", "Real-Time Systems"},
-  .experience = "Production web application development",
-  .interests = {"Backend Architecture", "IoT", "AI"},
-};
-```
+<img src="./bio-code.svg" width="680" alt="Animated C code bio: Mochaa's background, technical focus, interests, and favorite CGDCT anime" />
 
 ---
 

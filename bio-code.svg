@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="680" height="390" viewBox="0 0 680 390" role="img" aria-labelledby="title description">
+  <title id="title">Animated C code biography for Mochaa</title>
+  <desc id="description">An animated code editor types Mochaa's developer background, technical interests, and favorite CGDCT anime.</desc>
+
+  <defs>
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="line-1"><rect x="62" y="48" width="600" height="20"><animate attributeName="width" values="0;600;600;0" keyTimes="0;0.045;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-2"><rect x="62" y="68" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.05;0.095;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-3"><rect x="62" y="88" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.1;0.145;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-4"><rect x="62" y="108" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.15;0.195;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-5"><rect x="62" y="128" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.2;0.245;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-6"><rect x="62" y="148" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.25;0.295;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-7"><rect x="62" y="168" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.3;0.345;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-8"><rect x="62" y="188" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.35;0.395;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-9"><rect x="62" y="208" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.4;0.445;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-10"><rect x="62" y="228" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.45;0.495;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-11"><rect x="62" y="248" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.5;0.545;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-12"><rect x="62" y="268" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.55;0.595;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-13"><rect x="62" y="288" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.6;0.645;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-14"><rect x="62" y="308" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.65;0.695;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-15"><rect x="62" y="328" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.7;0.745;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="678" height="388" rx="12" fill="#2b1f28" stroke="#f29ab7" stroke-width="2" />
+  <path d="M1 40h678" stroke="#f29ab7" stroke-opacity="0.25" />
+  <circle cx="22" cy="21" r="6" fill="#e96a9d" />
+  <circle cx="42" cy="21" r="6" fill="#f7c5d8" />
+  <circle cx="62" cy="21" r="6" fill="#fff4e8" />
+  <text x="340" y="26" fill="#fde8ef" fill-opacity="0.72" font-family="JetBrains Mono, Consolas, monospace" font-size="13" text-anchor="middle">bio.c — mochaa</text>
+
+  <rect x="1" y="41" width="48" height="326" fill="#241a22" />
+  <path d="M49 41v326" stroke="#f29ab7" stroke-opacity="0.12" />
+
+  <g fill="#9b788d" font-family="JetBrains Mono, Consolas, monospace" font-size="12" text-anchor="end">
+    <text x="38" y="64">1</text><text x="38" y="84">2</text><text x="38" y="104">3</text>
+    <text x="38" y="124">4</text><text x="38" y="144">5</text><text x="38" y="164">6</text>
+    <text x="38" y="184">7</text><text x="38" y="204">8</text><text x="38" y="224">9</text>
+    <text x="38" y="244">10</text><text x="38" y="264">11</text><text x="38" y="284">12</text>
+    <text x="38" y="304">13</text><text x="38" y="324">14</text><text x="38" y="344">15</text>
+  </g>
+
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="13">
+    <g clip-path="url(#line-1)"><text x="62" y="64"><tspan fill="#e96a9d">static const struct</tspan><tspan fill="#fde8ef"> {</tspan></text></g>
+    <g clip-path="url(#line-2)"><text x="62" y="84"><tspan fill="#e96a9d">  const char</tspan><tspan fill="#fde8ef"> *background;</tspan></text></g>
+    <g clip-path="url(#line-3)"><text x="62" y="104"><tspan fill="#e96a9d">  const char</tspan><tspan fill="#fde8ef"> *focus[3];</tspan></text></g>
+    <g clip-path="url(#line-4)"><text x="62" y="124"><tspan fill="#e96a9d">  const char</tspan><tspan fill="#fde8ef"> *experience;</tspan></text></g>
+    <g clip-path="url(#line-5)"><text x="62" y="144"><tspan fill="#e96a9d">  const char</tspan><tspan fill="#fde8ef"> *interests[3];</tspan></text></g>
+    <g clip-path="url(#line-6)"><text x="62" y="164"><tspan fill="#e96a9d">  const char</tspan><tspan fill="#fde8ef"> *hobby;</tspan></text></g>
+    <g clip-path="url(#line-7)"><text x="62" y="184"><tspan fill="#e96a9d">  const char</tspan><tspan fill="#fde8ef"> *favorites[3];</tspan></text></g>
+    <g clip-path="url(#line-8)"><text x="62" y="204"><tspan fill="#fde8ef">} mochaa = {</tspan></text></g>
+    <g clip-path="url(#line-9)"><text x="62" y="224"><tspan fill="#fde8ef">  .background = </tspan><tspan fill="#f7c5d8">"Computer Engineering"</tspan><tspan fill="#fde8ef">,</tspan></text></g>
+    <g clip-path="url(#line-10)"><text x="62" y="244"><tspan fill="#fde8ef">  .focus = {</tspan><tspan fill="#f7c5d8">"Full-Stack", "REST APIs", "Real-Time Systems"</tspan><tspan fill="#fde8ef">},</tspan></text></g>
+    <g clip-path="url(#line-11)"><text x="62" y="264"><tspan fill="#fde8ef">  .experience = </tspan><tspan fill="#f7c5d8">"Production web application development"</tspan><tspan fill="#fde8ef">,</tspan></text></g>
+    <g clip-path="url(#line-12)"><text x="62" y="284"><tspan fill="#fde8ef">  .interests = {</tspan><tspan fill="#f7c5d8">"Backend Architecture", "IoT", "AI"</tspan><tspan fill="#fde8ef">},</tspan></text></g>
+    <g clip-path="url(#line-13)"><text x="62" y="304"><tspan fill="#fde8ef">  .hobby = </tspan><tspan fill="#f7c5d8">"Watching anime, especially CGDCT"</tspan><tspan fill="#fde8ef">,</tspan></text></g>
+    <g clip-path="url(#line-14)"><text x="62" y="324"><tspan fill="#fde8ef">  .favorites = {</tspan><tspan fill="#f7c5d8">"K-On!", "Yuru Camp", "New Game!"</tspan><tspan fill="#fde8ef">},</tspan></text></g>
+    <g clip-path="url(#line-15)"><text x="62" y="344" fill="#fde8ef">};</text></g>
+  </g>
+
+  <rect x="1" y="367" width="678" height="22" rx="0" fill="#e96a9d" fill-opacity="0.16" />
+  <text x="14" y="382" fill="#f7c5d8" font-family="JetBrains Mono, Consolas, monospace" font-size="10">main  C  UTF-8</text>
+  <g filter="url(#soft-glow)">
+    <circle cx="658" cy="378" r="3" fill="#f29ab7">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
