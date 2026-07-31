@@ -60,7 +60,7 @@
 
 <div align="center">
 
-![GitHub Streak](https://v0-git-hub-streak-score-card-phi.vercel.app/api/card-with-avatar?username=1naichii&theme=%7B%22backgroundColor%22%3A%22%232b1f28%22%2C%22textColor%22%3A%22%23fde8ef%22%2C%22accentColor%22%3A%22%23f29ab7%22%2C%22borderColor%22%3A%22%23f29ab7%22%2C%22waterColor%22%3A%22%23f7c5d8%22%2C%22streakColor%22%3A%22%23e96a9d%22%7D)
+<img src="./github-streak.svg" width="680" alt="GitHub activity card for 1naichii with current streak, longest streak, yearly contributions, and contribution heatmap" />
 
 </div>
 
