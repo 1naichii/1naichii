@@ -11,21 +11,21 @@
       </feMerge>
     </filter>
 
-    <clipPath id="line-1"><rect x="62" y="48" width="600" height="20"><animate attributeName="width" values="0;600;600;0" keyTimes="0;0.045;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-2"><rect x="62" y="68" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.05;0.095;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-3"><rect x="62" y="88" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.1;0.145;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-4"><rect x="62" y="108" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.15;0.195;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-5"><rect x="62" y="128" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.2;0.245;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-6"><rect x="62" y="148" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.25;0.295;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-7"><rect x="62" y="168" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.3;0.345;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-8"><rect x="62" y="188" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.35;0.395;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-9"><rect x="62" y="208" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.4;0.445;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-10"><rect x="62" y="228" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.45;0.495;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-11"><rect x="62" y="248" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.5;0.545;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-12"><rect x="62" y="268" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.55;0.595;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-13"><rect x="62" y="288" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.6;0.645;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-14"><rect x="62" y="308" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.65;0.695;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
-    <clipPath id="line-15"><rect x="62" y="328" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.7;0.745;0.9;1" dur="20s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-1"><rect x="62" y="48" width="600" height="20"><animate attributeName="width" values="0;600;600;0" keyTimes="0;0.04;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-2"><rect x="62" y="68" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.04;0.08;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-3"><rect x="62" y="88" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.08;0.12;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-4"><rect x="62" y="108" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.12;0.16;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-5"><rect x="62" y="128" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.16;0.20;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-6"><rect x="62" y="148" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.20;0.24;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-7"><rect x="62" y="168" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.24;0.28;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-8"><rect x="62" y="188" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.28;0.32;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-9"><rect x="62" y="208" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.32;0.36;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-10"><rect x="62" y="228" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.36;0.40;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-11"><rect x="62" y="248" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.40;0.44;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-12"><rect x="62" y="268" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.44;0.48;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-13"><rect x="62" y="288" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.48;0.52;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-14"><rect x="62" y="308" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.52;0.56;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
+    <clipPath id="line-15"><rect x="62" y="328" width="600" height="20"><animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.56;0.60;0.92;1" dur="16s" repeatCount="indefinite" /></rect></clipPath>
   </defs>
 
   <rect x="1" y="1" width="678" height="388" rx="12" fill="#2b1f28" stroke="#f29ab7" stroke-width="2" />
