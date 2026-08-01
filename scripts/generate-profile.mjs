@@ -30,7 +30,7 @@ const [header, terminal, gif, bio, project, github, connect, languages, framewor
   localAsset("Tumblr.gif", "image/gif"),
   inlineSvg("bio-code.svg", "bio-"),
   localAsset("project-card.svg"),
-  localAsset("github-streak.svg"),
+  inlineSvg("github-streak.svg", "github-"),
   localAsset("connect-card.svg"),
   remoteSvg("https://skillicons.dev/icons?i=ts,js,php,py,c,cpp&theme=dark&perline=6"),
   remoteSvg("https://go-skill-icons.vercel.app/api/icons?i=express,laravel,react,tailwind,hono,elysia&theme=dark"),
@@ -105,7 +105,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="680" height="2690" v
     <image href="${platforms}" x="30" y="460" width="165" height="48" preserveAspectRatio="xMinYMid meet"/>
   </g>
 
-  <image href="${github}" x="0" y="2129" width="680" height="360"/>
+  <g transform="translate(0 2129)">${github}</g>
   <image href="${connect}" x="0" y="2509" width="680" height="170"/>
 </svg>`;
 

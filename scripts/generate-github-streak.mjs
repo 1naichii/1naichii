@@ -4,6 +4,13 @@ const username = process.argv[2] || process.env.GITHUB_USERNAME || "1naichii";
 const output = process.argv[3] || "github-streak.svg";
 const token = process.env.GITHUB_TOKEN;
 const today = new Date().toISOString().slice(0, 10);
+const contributionLevels = {
+  NONE: 0,
+  FIRST_QUARTILE: 1,
+  SECOND_QUARTILE: 2,
+  THIRD_QUARTILE: 3,
+  FOURTH_QUARTILE: 4,
+};
 
 const request = async (url, options = {}) => {
   const response = await fetch(url, {
@@ -71,7 +78,7 @@ async function fetchFromGitHub() {
     contributions: calendar.weeks.flatMap(({ contributionDays }) => contributionDays).map((day) => ({
       date: day.date,
       count: day.contributionCount,
-      level: Number(day.contributionLevel.at(-1)) || 0,
+      level: contributionLevels[day.contributionLevel] ?? (day.contributionCount > 0 ? 1 : 0),
     })),
   };
 }
@@ -139,7 +146,8 @@ function render(data, avatar, streaks) {
     const date = new Date(`${day.date}T00:00:00Z`);
     const week = Math.floor((date - gridStart) / 604800000);
     const weekday = date.getUTCDay();
-    return `<rect x="${107 + week * 9}" y="${267 + weekday * 9}" width="7" height="7" rx="2" fill="${colors[Math.min(day.level, 4)]}" aria-label="${day.date}: ${day.count} contributions"/>`;
+    const level = day.count > 0 ? Math.max(1, Math.min(Number(day.level) || 0, 4)) : 0;
+    return `<rect x="${107 + week * 9}" y="${267 + weekday * 9}" width="7" height="7" rx="2" fill="${colors[level]}" aria-label="${day.date}: ${day.count} contributions"/>`;
   }).join("\n    ");
 
   const stat = (x, label, value, suffix = "") => `<g transform="translate(${x} 145)">
