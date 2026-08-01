@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="230" viewBox="0 0 680 230" role="img" aria-labelledby="title description">
   <title id="title">ai-engineering-starter</title>
-  <desc id="description">Current project: a vendor-neutral starter for specification-driven AI software delivery with independent adversarial review.</desc>
+  <desc id="description">A practical starter for building reliable AI software.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -22,11 +22,12 @@
   <circle cx="622" cy="206" r="62" fill="#f7c5d8" fill-opacity="0.04" />
 
   <g font-family="JetBrains Mono, Consolas, monospace">
-    <text x="30" y="70" fill="#fde8ef" font-size="25" font-weight="700">ai-engineering-starter</text>
-    <rect x="30" y="84" width="300" height="3" rx="1.5" fill="url(#accent)" />
+    <text x="30" y="38" fill="#f29ab7" font-size="10" font-weight="700" letter-spacing="1.5">CURRENTLY BUILDING</text>
+    <text x="30" y="74" fill="#fde8ef" font-size="25" font-weight="700">ai-engineering-starter</text>
+    <rect x="30" y="88" width="300" height="3" rx="1.5" fill="url(#accent)" />
 
-    <text x="30" y="116" fill="#fff4e8" font-size="13">Vendor-neutral AI engineering workflows for</text>
-    <text x="30" y="136" fill="#fff4e8" font-size="13">spec-driven delivery and independent review.</text>
+    <text x="30" y="122" fill="#fff4e8" font-size="13">A practical starter for building</text>
+    <text x="30" y="142" fill="#fff4e8" font-size="13">reliable AI software.</text>
 
     <g font-size="10" font-weight="700">
       <rect x="30" y="161" width="91" height="24" rx="6" fill="#e96a9d" fill-opacity="0.16" />
