@@ -1,4 +1,5 @@
 import { writeFile } from "node:fs/promises";
+import { optimizeSvg } from "./svg-optimizer.mjs";
 
 const username = process.argv[2] || process.env.GITHUB_USERNAME || "1naichii";
 const output = process.argv[3] || "github-streak.svg";
@@ -204,5 +205,6 @@ const [avatar, streaks] = await Promise.all([
   avatarDataUri(data.avatarUrl),
   Promise.resolve(calculateStreaks(data.contributions)),
 ]);
-await writeFile(output, render(data, avatar, streaks), "utf8");
-console.log(`Generated ${output} for @${data.login}: current ${streaks.current}, longest ${streaks.longest}, total ${data.total}`);
+const svg = optimizeSvg(render(data, avatar, streaks));
+await writeFile(output, svg, "utf8");
+console.log(`Generated ${output} (${Buffer.byteLength(svg)} bytes) for @${data.login}: current ${streaks.current}, longest ${streaks.longest}, total ${data.total}`);

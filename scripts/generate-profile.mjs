@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { optimizeSvg, stripSvgShell } from "./svg-optimizer.mjs";
 
 const root = new URL("../", import.meta.url);
 const output = new URL("profile.svg", root);
@@ -6,22 +7,20 @@ const output = new URL("profile.svg", root);
 const asDataUri = (content, type) => `data:${type};base64,${Buffer.from(content).toString("base64")}`;
 
 async function localAsset(name, type = "image/svg+xml") {
-  return asDataUri(await readFile(new URL(name, root)), type);
+  const content = await readFile(new URL(name, root), type === "image/svg+xml" ? "utf8" : undefined);
+  return asDataUri(type === "image/svg+xml" ? optimizeSvg(content) : content, type);
 }
 
 async function remoteSvg(url) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`${url} returned ${response.status}`);
-  return asDataUri(await response.arrayBuffer(), "image/svg+xml");
+  const source = Buffer.from(await response.arrayBuffer()).toString("utf8");
+  return asDataUri(optimizeSvg(source), "image/svg+xml");
 }
 
 async function inlineSvg(name, prefix) {
-  return (await readFile(new URL(name, root), "utf8"))
-    .replace(/^<svg[^>]*>/, "")
-    .replace(/<\/svg>\s*$/, "")
-    .replace(/\s*<(?:title|desc)\b[^>]*>.*?<\/(?:title|desc)>/gs, "")
-    .replaceAll(/id="([^"]+)"/g, `id="${prefix}$1"`)
-    .replaceAll(/url\(#([^)]+)\)/g, `url(#${prefix}$1)`);
+  const source = await readFile(new URL(name, root), "utf8");
+  return stripSvgShell(optimizeSvg(source, { prefixIds: prefix }));
 }
 
 const [header, terminal, gif, bio, project, github, connect, languages, frameworks, data, tools, platforms] = await Promise.all([
@@ -109,5 +108,6 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="680" height="2690" v
   <image href="${connect}" x="0" y="2509" width="680" height="170"/>
 </svg>`;
 
-await writeFile(output, svg, "utf8");
-console.log(`Generated profile.svg (${Buffer.byteLength(svg)} bytes)`);
+const optimized = optimizeSvg(svg);
+await writeFile(output, optimized, "utf8");
+console.log(`Generated profile.svg (${Buffer.byteLength(optimized)} bytes)`);

@@ -20,12 +20,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Install SVG optimization tools
+        run: npm ci
       - name: Generate streak SVG from GitHub data
         run: node scripts/generate-github-streak.mjs 1naichii github-streak.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Rebuild full profile SVG
         run: node scripts/generate-profile.mjs
+      - name: Validate optimized SVGs
+        run: npm run validate:svg
       - name: Commit updated profile
         run: |
           if git diff --quiet -- github-streak.svg profile.svg; then

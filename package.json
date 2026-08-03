@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "optimize:svg": "node scripts/optimize-svgs.mjs",
+    "validate:svg": "node scripts/validate-svgs.mjs",
+    "generate:streak": "node scripts/generate-github-streak.mjs 1naichii github-streak.svg",
+    "generate:profile": "node scripts/generate-profile.mjs",
+    "build": "npm run generate:streak && npm run generate:profile"
+  },
+  "devDependencies": {
+    "svgo": "^4.0.2"
+  }
+}
