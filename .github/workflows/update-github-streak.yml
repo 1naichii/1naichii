@@ -1,4 +1,4 @@
-name: Update GitHub streak card
+name: Update pixel profile
 
 on:
   schedule:
@@ -22,21 +22,19 @@ jobs:
           node-version: 22
       - name: Install SVG optimization tools
         run: npm ci
-      - name: Generate streak SVG from GitHub data
-        run: node scripts/generate-github-streak.mjs 1naichii github-streak.svg
+      - name: Rebuild profile SVG from GitHub data
+        run: node scripts/generate-profile.mjs 1naichii
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Rebuild full profile SVG
-        run: node scripts/generate-profile.mjs
       - name: Validate optimized SVGs
         run: npm run validate:svg
       - name: Commit updated profile
         run: |
-          if git diff --quiet -- github-streak.svg profile.svg; then
+          if git diff --quiet -- profile.svg; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-streak.svg profile.svg
+          git add profile.svg
           git commit -m "chore(profile): update GitHub activity"
           git push
