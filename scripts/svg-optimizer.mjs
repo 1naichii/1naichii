@@ -6,6 +6,10 @@ const basePlugins = [
     params: {
       overrides: {
         cleanupIds: false,
+        // Animated clip rectangles must stay <rect> so their width can animate.
+        convertShapeToPath: false,
+        // Elements that start hidden and fade in via <animate> must survive.
+        removeHiddenElems: { opacity0: false },
       },
     },
   },

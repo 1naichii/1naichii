@@ -3,9 +3,9 @@
   "scripts": {
     "optimize:svg": "node scripts/optimize-svgs.mjs",
     "validate:svg": "node scripts/validate-svgs.mjs",
-    "generate:streak": "node scripts/generate-github-streak.mjs 1naichii github-streak.svg",
-    "generate:profile": "node scripts/generate-profile.mjs",
-    "build": "npm run generate:streak && npm run generate:profile"
+    "pixelate:gif": "python scripts/pixelate-gif.py Tumblr.gif pixel-transformation.gif",
+    "generate:profile": "node scripts/generate-profile.mjs 1naichii",
+    "build": "npm run generate:profile && npm run validate:svg"
   },
   "devDependencies": {
     "svgo": "^4.0.2"

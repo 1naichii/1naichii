@@ -6,7 +6,6 @@
 
 ## 🧐 About Me
 
-🎓 CE student at Telkom University Surabaya who loves problem-solving  
 💤 Lazy developer who prefers elegant solutions over excessive typing  
 🌸 Anime fan (especially CGDCT series like K-On!, Yuru Camp, New Game!)
 
@@ -81,8 +80,6 @@
 ## 📫 Connect With Me
 
 [![Facebook Dev](https://img.shields.io/badge/-Facebook_Dev-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/1naichii)
-[![Facebook Main](https://img.shields.io/badge/-Facebook_Main-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/DevZakariyaa)
-[![Twitter](https://img.shields.io/badge/-Twitter-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/DevZakariya)
 [![GitHub](https://img.shields.io/badge/-GitHub-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/1naichii)
 
 ---

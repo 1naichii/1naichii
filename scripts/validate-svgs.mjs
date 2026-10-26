@@ -45,9 +45,13 @@ for (const name of files) {
   }
 }
 
-const bio = await readFile(new URL("bio-code.svg", root), "utf8");
-if (!bio.includes('xml:space="preserve"') || (bio.match(/<animate\b/g) ?? []).length !== 16) {
-  throw new Error("bio-code.svg: animation or preserved text spacing was changed");
+const profile = await readFile(new URL("profile.svg", root), "utf8");
+const duplicateIds = [...profile.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]).filter((id, index, ids) => ids.indexOf(id) !== index);
+if (duplicateIds.length) {
+  throw new Error(`profile.svg: duplicate ids: ${[...new Set(duplicateIds)].join(", ")}`);
+}
+if (!/<clipPath id="line-0"><rect\b[^>]*><animate attributeName="width"/.test(profile)) {
+  throw new Error("profile.svg: the typing animation needs <rect> clip paths so their width can animate");
 }
 
 console.log(`Validated ${files.length} SVG files and their embedded SVG documents`);
