@@ -1,4 +1,4 @@
-name: Update pixel profile
+name: Update Frieren profile
 
 on:
   schedule:
@@ -15,26 +15,28 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Install SVG optimization tools
+      - name: Install build tools (SVG optimizer, font subsetter)
         run: npm ci
-      - name: Rebuild profile SVG from GitHub data
-        run: node scripts/generate-profile.mjs 1naichii
+      - name: Rebuild banner and profile from GitHub data
+        run: node scripts/build.mjs 1naichii
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Validate optimized SVGs
-        run: npm run validate:svg
+      - name: Check SVGs
+        run: node scripts/check.mjs
       - name: Commit updated profile
         run: |
-          if git diff --quiet -- profile.svg; then
+          if git diff --quiet -- banner.svg profile.svg footer.svg; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile.svg
+          git add banner.svg profile.svg footer.svg
           git commit -m "chore(profile): update GitHub activity"
+          git pull --rebase
           git push
