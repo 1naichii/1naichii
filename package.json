@@ -1,13 +1,16 @@
 {
   "private": true,
   "scripts": {
-    "optimize:svg": "node scripts/optimize-svgs.mjs",
-    "validate:svg": "node scripts/validate-svgs.mjs",
-    "pixelate:gif": "python scripts/pixelate-gif.py Tumblr.gif pixel-transformation.gif",
-    "generate:profile": "node scripts/generate-profile.mjs 1naichii",
-    "build": "npm run generate:profile && npm run validate:svg"
+    "build": "node scripts/build.mjs 1naichii && node scripts/check.mjs",
+    "check": "node scripts/check.mjs",
+    "frame:gif": "python scripts/frame-gif.py assets/frieren-source.gif frieren.gif",
+    "prepare:art": "python scripts/prepare-art.py",
+    "prepare:fonts": "node scripts/prepare-fonts.mjs"
   },
   "devDependencies": {
+    "fontverter": "^2.1.0",
+    "harfbuzzjs": "^1.6.4",
+    "subset-font": "^2.9.0",
     "svgo": "^4.0.2"
   }
 }
